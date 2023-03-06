@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Blockly Demo: Mirrored Blockly</title>
+    <script type="application/javascript" src="https://cdn.jsdelivr.net/npm/localforage"></script>
+    <style>
+      body {
+        background-color: #fff;
+        font-family: sans-serif;
+      }
+      h1 {
+        font-weight: normal;
+        font-size: 140%;
+      }
+    </style>
+    </head>
+  <body>
+    <script src="main.js"></script>
+    <div id="sync_to_remote">
+      <input type="radio" id="sync_to_remote_on" name="sync_to_remote" value="sync_to_remote_on" checked>
+      <label for="ssync_to_remote_on">Sync to remote</label>
+      <input type="radio" id="sync_to_remote_off" name="sync_to_remote" value="sync_to_remote_off">
+      <label for="ssync_to_remote_off">Do not Sync to remote</label><br>
+    </div>
+    <div id="receive_from_remote">
+      <input type="radio" id="receive_from_remote_on" name="receive_from_remote" value="receive_from_remote_on" checked>
+      <label for="receive_from_remote_on">Receive from remote</label>
+      <input type="radio" id="receive_from_remote_off" name="receive_from_remote" value="receive_from_remote_off">
+      <label for="receive_from_remote_off">Do not receive from remote</label><br>
+    </div>
+    
+    <table width="100%">
+        <tr>
+          <td>
+            <div id="primaryDiv" style="height: 480px; width: 600px;"></div>
+          </td>
+          <td>
+            <div id="secondaryDiv" style="height: 480px; width: 430px;"></div>
+          </td>
+        </tr>
+      </table>
+  </body>
+</html>

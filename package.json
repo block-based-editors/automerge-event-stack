@@ -1,0 +1,17 @@
+{
+  "name": "automerge-todo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@automerge/automerge": "^2.0.1-alpha.2",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "blockly": "^9.0.0"
+
+
+  }
+}
