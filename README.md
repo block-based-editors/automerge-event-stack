@@ -1,2 +1,2 @@
 # Automerge event-stack
-(real-time) colaboration with automerge saving the events in a stack
+(real-time) collaboration with automerge saving the events in a stack
